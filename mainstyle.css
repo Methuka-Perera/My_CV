@@ -1,0 +1,124 @@
+html * {
+    /* font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal; */
+    /* font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; */
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
+
+.navbar-scrolled {
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0);
+}
+
+.about-section {
+    background-image: url(images/bg_image5.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 95%;
+}
+
+.navbar {
+    transition: 0.5s;
+}
+
+.name, .description {
+    color: white;
+}
+
+.name {
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.description {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+}
+
+#cv-btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.skills-section {
+    /* background-color: #20404A; */
+    background-color: black;
+    /* background-image: url("bg_image3.png");
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.skills-text {
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+#cards-section .card{
+    margin-bottom: 10%;
+    color: white;
+    background-color: #111010;
+    /* background-image: url(bg_image3.png); */
+    background-size: cover;
+    background-attachment: fixed;
+    filter: contrast(1.2);
+    transition: 0.5s;
+    border-color: rgb(62, 62, 62);
+    border-width: 2px;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-image: none;
+    background-color: black;
+}
+
+#video-img {
+    padding-top: 5%;
+}
+
+.projects-section {
+    background-image: url(images/bg_image4.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+.projects-text {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#contact-section {
+    padding-bottom: 10%;
+}
+
+@media (max-width: 768px) {
+    #about-container {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width :576px) {
+    #about-container {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 336px) {
+    video {
+        width: 100%;
+        height: 100%;
+    }
+}
